@@ -6,29 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/98e0003e30.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="style.css">
     <title>Curriculo</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light " id="nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
 
-    <div class="container" id="nav">
-        <div class="row">
-            <a class="col-sm-2" href="#about">SOBRE</a>
-            <a class="col-sm-2" href="#cursos">CURSOS</a>
-            <a class="col-sm-2" href="#experiencia">EXPERIÊNCIA</a>
-            <a class="col-sm-2" href="#projeto">PROJETOS</a>
-            <a class="col-sm-2" href="#social">CONTATOS</a>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav" id="itens">
+                <li><a class="nav-link" href="#about">SOBRE</a></li>
+                <li><a class="nav-link" href="#cursos">CURSOS</a></li>
+                <li><a class="nav-link" href="#experiencia">EXPERIÊNCIA</a></li>
+                <li><a class="nav-link" href="#projeto">PROJETOS</a></li>
+                <li><a class="nav-link" href="#social">CONTATOS</a></li>
+            </ul>
         </div>
-    </div>
-         <div class="container" id="about">
+    </nav>
+    <div class="container" id="about">
         <div>
-            <img class="col-sm-2" id="perfil" src="img/perfil.jpg">
-            <audio controls="controls" src="sound/biscuit.mp3"></audio>  
+            <img id="perfil" src="img/perfil.jpg">
+            <audio id="som" controls="controls" src="sound/biscuit.mp3"></audio>
         </div>
 
         <div class="col-sm-9" id="perfil-title">
@@ -36,7 +47,7 @@
         </div>
     </div>
     <div class="container" id="sobre">
-        <div class="col-sm-12">
+        <div class="col-sm-12 col-xs-12">
             <h4>Estudante de análise e desenvolvimento de sistemas na Uniasselvi.
                 Em busca da primeira oportunidade na área de TI,
                 tenho conhecimento básico em html5, Css, Javascript, React, Node.js, PHP, MySQL e MongoDB.
@@ -46,8 +57,8 @@
             </h4>
         </div>
     </div>
+    <br>
     <section id="blank"></section>
-
     <div class="container" id="cursos">
         <div class="col-sm-12">
 
@@ -79,55 +90,55 @@
         </div>
     </div>
     <section id="blank"></section>
-    
+
     <div class="container" id="experiencia">
-        <div class="col-sm-12" >
+        <div class="col-sm-12">
             <h3>AmPm - fevereiro de 2021 - junho de 2021 (5 meses)
             </h3>
-                <h4>
-                    Atendimento ao cliente
-                    Atendimento ao cliente, abertura
-                    e fechamento de loja.</h4>
+            <h4>
+                Atendimento ao cliente, abertura
+                e fechamento de loja.</h4>
         </div>
         <hr>
         <div class="col-sm-12">
             <h3>MM COMIDAS LTDA - agosto de 2019 - fevereiro de 2020 (7 meses) </h3>
-                <h4>
-                    Atendimento ao cliente, operação na parte interna do
-                    restaurante, fechamento de loja.</h4>
+            <h4>
+                Atendimento ao cliente, operação na parte interna do
+                restaurante, fechamento de loja.</h4>
         </div>
         <hr>
 
         <div class="col-sm-12">
-            <h3>Burger King do Brasil -  agosto de 2018 - junho de 2019 (11 meses)</h3>
-                <h4>
-                    Relacionamento direto com os clientes, treinamento de novos e antigos colaboradores.</h4>
+            <h3>Burger King do Brasil - agosto de 2018 - junho de 2019 (11 meses)</h3>
+            <h4>
+                Relacionamento direto com os clientes, treinamento de novos e antigos colaboradores.</h4>
         </div>
         <hr>
 
         <div class="col-sm-12">
             <h3>Arcos Dourados Comercio De Alimentos - julho de 2016 - outubro de 2017 (1 ano 4 meses)</h3>
-                <h4>
-                    Atendimento ao cliente
-                    </h4>
+            <h4>
+                Atendimento ao cliente
+            </h4>
         </div>
-                </div>
-                <section id="blank"></section>
+    </div>
+    <section id="blank"></section>
 
     <div class="container" id="projeto">
-        <div class="col-sm-12" >
+        <div class="col-sm-12">
 
-<h2>Em Breve!!!</h2>      
-  </div>
+            <h2>Em Breve!!!</h2>
+        </div>
     </div>
     <section id="blank"></section>
 
     <div class="container">
-        <div class="col-sm-12" id="text-contact">
-            <h3>Leonardudesouza@hotmail.com
+        <div id="text-contact" class="col-sm-12">
+            <p>Leonardudesouza @hotmail.com
                 <hr>
                 (31)985808502
-            </h3>
+            </p>
+
         </div>
 
         <div id="social">
@@ -139,7 +150,6 @@
             <a href="https://github.com/Leonardu76" target="_blank" target="_blank"><i class="fab fa-github"></i></a>
 
         </div>
-    </div>
     </div>
 
 </body>
