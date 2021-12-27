@@ -1,7 +1,6 @@
 body{
   background: linear-gradient(65deg,  #d3be04, #020000, #960404 );
-  background-size: 190% 250%;
-  animation: colors 10s ease infinite;
+  
 }
 
 @keyframes colors {
@@ -87,14 +86,18 @@ body{
 
 }
 #projeto {
-   height: 70vh;
-   padding-top: 300px;
+   height: auto;
+   padding-top: 50px;
    text-align: center;
    border: groove;
-   color: rgb(251, 254, 255);
-   text-shadow:-11px 9px 7px rgba(214, 54, 14, 0.808);
-   box-shadow: 3px 2px 9px 7px rgba(182, 13, 13, 0.507) ;
+   color: rgb(240, 243, 243);
+   box-shadow: 3px 2px 9px 7px rgba(194, 98, 9, 0.671) ;
 } 
+
+.card{
+  background-color: #b85f0c3a;
+  padding-left: 25px;
+}
 
 #social{   
    text-shadow:-11px 9px 7px rgba(214, 54, 14, 0.808);
