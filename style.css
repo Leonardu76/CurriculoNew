@@ -1,6 +1,8 @@
 body{
-  background: linear-gradient(65deg,  #d3be04, #020000, #960404 );
-  
+ background: linear-gradient(85deg,  #6b6102, #020000, #8f0606 );
+  background-size: 200% 300%;
+  animation: colors 15s ease infinite;
+
 }
 
 @keyframes colors {
