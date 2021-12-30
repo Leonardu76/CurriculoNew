@@ -21,8 +21,7 @@ body{
   #nav{
   border:groove;
   background-color: #72062fd0;
-  right: 120px;
-  left: 15px;
+  
 }
 
 #som {
@@ -101,7 +100,7 @@ body{
 
 } 
 #conta{
-    padding-left:250px;
+    padding:auto;
 }
 
 #social{   
