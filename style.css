@@ -1,5 +1,5 @@
 body{
- background: linear-gradient(85deg,  #6b6102, #020000, #8f0606 );
+  background: linear-gradient(85deg,  #6b6102, #020000, #8f0606 );
   background-size: 200% 300%;
   animation: colors 15s ease infinite;
 
@@ -21,6 +21,8 @@ body{
   #nav{
   border:groove;
   background-color: #72062fd0;
+  right: 120px;
+  left: 15px;
 }
 
 #som {
@@ -34,11 +36,12 @@ body{
    border: groove;
    text-align: center;
    border-radius: 20px ;
-   box-shadow: 4px 2px 9px 7px rgba(182, 13, 13, 0.507) ;
+   box-shadow: 4px 2px 9px 7px rgba(182, 13, 13, 0.274) ;
 }
 
 #nav {
     position:fixed;
+
 } 
 
 #perfil{
@@ -55,7 +58,7 @@ body{
 
 #sobre{
     color: rgb(251, 254, 255);
-    box-shadow: 4px 2px 9px 7px rgba(182, 13, 13, 0.507) ;
+    box-shadow: 4px 2px 9px 7px rgba(182, 13, 13, 0.438) ;
     text-align:center;
     border: groove;
     padding: auto;
@@ -88,7 +91,6 @@ body{
 
 }
 #projeto {
-  
   overflow-y: scroll;
    height: 800px;
    padding-top: 50px;
@@ -96,11 +98,10 @@ body{
    border: groove;
    color: rgb(240, 243, 243);
    box-shadow: 3px 2px 9px 7px rgba(194, 98, 9, 0.671) ;
-} 
 
-.card{
-  background-color: #b85f0c3a;
-  padding-left: 25px;
+} 
+#conta{
+    padding-left:250px;
 }
 
 #social{   
