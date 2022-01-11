@@ -28,7 +28,7 @@ body{
 }
 }
 #conta{
-  padding:auto;
+  margin: 10px 10px auto auto;
 }
 
 #itens *{
