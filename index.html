@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/98e0003e30.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -25,10 +28,10 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-    
+
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="nav navbar-nav" id="itens">
+            <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav" id="itens">
                     <li><a class="nav-link" href="#about">SOBRE</a></li>
                     <li><a class="nav-link" href="#cursos">CURSOS</a></li>
                     <li><a class="nav-link" href="#experiencia">EXPERIÊNCIA</a></li>
@@ -37,7 +40,7 @@
                 </ul>
             </div>
         </nav>
-      </div>
+    </div>
     <div class="container" id="about">
         <div>
             <img id="perfil" src="img/perfil.jpeg">
@@ -50,10 +53,10 @@
     </div>
     <div class="container" id="sobre">
         <div class="col-sm-12 col-xs-12">
-            <h4>Estudante de análise e desenvolvimento de sistemas pela Uniasselvi.
-                 Em busca da primeira oportunidade na área de TI. 
-                 Tenho conhecimento em PHP, CSS, HTML5 e MySQL.
-                 Tenho mais de 2 anos de experiência em atendimento ao cliente.
+            <h4>
+                Estudante de análise e desenvolvimento de sistemas pela Cruzeiro do Sul. <br>
+                Em busca da primeira oportunidade na área de desenvolvimento web.
+                Tenho conhecimento em Python, PhP, CSS, HTML5, Javascript e MySQL.
                 <hr>Céu Azul - Belo Horizonte
             </h4>
         </div>
@@ -64,30 +67,33 @@
         <div class="col-sm-12">
 
             <ul>
-                <li>Análise e desenvolvimento de sistemas - Uniasselvi - 2024 </li>
+                <li>Análise e desenvolvimento de sistemas - Cruzeiro do Sul - 2024 </li>
                 <hr>
-                <a class="link" href="https://certificates.digitalinnovation.one/F0119815" target="_blank">
-                    <li>Introdução ao PHP - Digital Innovation One - 4 Horas</li>
+                <a class="link" href="https://www.dio.me/certificate/C43461FA/share"
+                    target="_blank">
+                    <li>Introdução à programação com Python- Udemy - Digital Innovation One - 8 Horas</li>
+                </a>
+                <hr>
+                <a class="link" href="https://www.udemy.com/certificate/UC-6a67b54a-cf46-4fa3-a997-457f963b292e/" target="_blank">
+                    <li> Algoritmos e lógica de programação com Python 3 - Udemy - 12 Horas</li>
+                    <hr>
+                    <a class="link" href="https://www.udemy.com/certificate/UC-9b041266-49ab-4694-86fa-57e9d7a0472f/"
+                        target="_blank">
+                        <li>PHP do Zero a Maestria - Udemy - 33 Horas</li>
+                    </a>
                     <hr>
                     <a class="link" href="https://certificates.digitalinnovation.one/C0A2EEC6" target="_blank">
                         <li>Conhecendo funções e validação de dados com PHP - Digital Innovation One - 4 Horas</li>
-                    </a>
-                    <hr>
-                    <a class="link" href="https://certificates.digitalinnovation.one/A8594FBC" target="_blank">
-                        <li>Formulários com condicionais e sessões com PHP - Digital Innovation One - 5 Horas</li>
                     </a>
                     <hr>
                     <a class="link" href="https://certificates.digitalinnovation.one/D8471A49" target="_blank">
                         <li>Lógica de Programação Essencial - Digital Innovation One - 4 Horas </li>
                     </a>
                     <hr>
-                    <a class="link" href="https://certificates.digitalinnovation.one/35714132" target="_blank">
-                        <li>Trabalhando com Componentes em React - Digital Innovation One - 2 Horas </li>
-                    </a>
-                    <hr>
-                     <a class="link" href="https://www.udemy.com/certificate/UC-9b041266-49ab-4694-86fa-57e9d7a0472f/" target="_blank">
-                    <li>PHP do Zero a Maestria - Udemy - 33 Horas</li>
-                    <hr>
+                    <h5><a class="link"
+                            href="https://www.linkedin.com/in/leonardo-oliveira-3b0446176/details/certifications/"
+                            target="_blank">
+                            Ver mais...</h5>
             </ul>
         </div>
     </div>
@@ -129,54 +135,70 @@
     <div class="container" id="projeto">
         <div class="row">
             <div class="col-sm-4" class="card">
-                <img src="img/case.PNG">
+                <img class="img-fluid" src="img/telegra.jpg">
+                <div class="card-body">
+                    <h5 class="card-title">Chatbot feito em Python para o Telegram </h5>
+                    <p class="card-text">Projeto feito com intuito de praticar criação de chatbots e prática de Python.
+                    </p>
+                    <a href="https://github.com/Leonardu76/chatbot-python" target="_blank" class="btn btn-dark">Ir ao
+                        código</a>
+                    <a href="https://web.telegram.org/" target="_blank" class="btn btn-dark">@TreinoLeoBot</a>
+
+                </div>
+            </div>
+            <div class="col-sm-4" class="card">
+                <img class="img-fluid" src="img/case.PNG">
                 <div class="card-body">
                     <h5 class="card-title">Case sensitive </h5>
                     <p class="card-text">Projeto feito com intuito de praticar manipulação de strings e formulários em
-                        PHP. (concluído)</p>
-                    <a href="https://github.com/Leonardu76/Case"  target="_blank"class="btn btn-dark">Ir ao código</a>
+                        PHP. </p>
+                    <a href="https://github.com/Leonardu76/Case" target="_blank" class="btn btn-dark">Ir ao código</a>
                     <a href="http://case-sensitive.atwebpages.com/" target="_blank" class="btn btn-dark">Ir ao site</a>
 
                 </div>
             </div>
             <div class="col-sm-4" class="card">
-                <img src="img/crud.PNG">
+                <img class="img-fluid" src="img/crud.PNG">
                 <div class="card-body">
                     <h5 class="card-title">CRUD com PDO</h5>
-                    <p class="card-text">Projeto feito com intuito de praticar manipulação banco de dados MySQL em PHP.</p>
-                    <a href="https://github.com/Leonardu76/Crud-cadastro" target="_blank" class="btn btn-dark">Ir ao código</a>
-                    <a href="http://cadpdo.rf.gd/"  target="_blank"class="btn btn-dark">Ir ao site</a>
+                    <p class="card-text">Projeto feito com intuito de praticar manipulação banco de dados MySQL em PHP.
+                    </p>
+                    <a href="https://github.com/Leonardu76/Crud-cadastro" target="_blank" class="btn btn-dark">Ir ao
+                        código</a>
+                    <a href="http://cadpdo.rf.gd/" target="_blank" class="btn btn-dark">Ir ao site</a>
 
                 </div>
             </div>
             <div class="col-sm-4" class="card">
-                <img src="img/linktr.PNG">
+                <img class="img-fluid" src="img/linktr.PNG">
                 <div class="card-body">
                     <h5 class="card-title">LinkTree</h5><br>
                     <p class="card-text">Projeto feito com intuito de praticar HTML e CSS.</p>
-                    <a href=  "https://github.com/Leonardu76/linktr" target="_blank" class="btn btn-dark">Ir ao código</a>
-                    <a href=  "https://leonardu76.github.io/linktr/" target="_blank"class="btn btn-dark">Ir ao site</a>
+                    <a href="https://github.com/Leonardu76/linktr" target="_blank" class="btn btn-dark">Ir ao código</a>
+                    <a href="https://leonardu76.github.io/linktr/" target="_blank" class="btn btn-dark">Ir ao site</a>
 
                 </div>
             </div>
-        
+
             <div class="col-sm-4" class="card">
-                <img src="img/calculadora.PNG">
+                <img class="img-fluid" src="img/calculadora.PNG">
                 <div class="card-body">
                     <h5 class="card-title">Calculadora simples </h5>
                     <p class="card-text">Calculadora simples feita em PHP para prática.</p>
-                    <a href="https://github.com/Leonardu76/Calculadora-PHP" target="_blank" class="btn btn-dark">Ir ao código</a>
-                    <a href="http://calculatorphp.atwebpages.com/"          target="_blank" class="btn btn-dark">Ir ao site</a>
+                    <a href="https://github.com/Leonardu76/Calculadora-PHP" target="_blank" class="btn btn-dark">Ir ao
+                        código</a>
+                    <a href="http://calculatorphp.atwebpages.com/" target="_blank" class="btn btn-dark">Ir ao site</a>
 
                 </div>
             </div>
             <div class="col-sm-4" class="card">
-                <img src="img/login.PNG">
+                <img class="img-fluid" src="img/login.PNG">
                 <div class="card-body">
-                    <h5 class="card-title">Login PHP usando PDO  </h5>
+                    <h5 class="card-title">Login PHP usando PDO </h5>
                     <p class="card-text">Sistema de login feito para prática de banco de dados MySQL. </p>
-                    <a href="https://github.com/Leonardu76/Registro-" target="_blank" class="btn btn-dark">Ir ao código</a>
-                    <a href="http://relog.rf.gd/"          target="_blank" class="btn btn-dark">Ir ao site</a>
+                    <a href="https://github.com/Leonardu76/Registro-" target="_blank" class="btn btn-dark">Ir ao
+                        código</a>
+                    <a href="http://relog.rf.gd/" target="_blank" class="btn btn-dark">Ir ao site</a>
 
                 </div>
             </div>
@@ -185,9 +207,10 @@
     </div>
     <section id="blank"></section>
 
+
     <div class="container">
         <div id="text-contact" class="col-sm-12">
-            <p>Leonardudesouza @hotmail.com
+            <p>Leonardudesouza@hotmail.com
                 <hr>
                 (31)985808502
             </p>
@@ -196,11 +219,13 @@
 
         <div id="social">
             <a href="https://www.linkedin.com/in/leonardo-oliveira-3b0446176/" target="_blank"><i
-                    class="fab fa-linkedin"></i></a>
-            <a href="https://api.whatsapp.com/send?phone=5531985808502" target="_blank"><i
-                    class="fab fa-whatsapp-square"></i></a>
-            <a href="https://github.com/Leonardu76" target="_blank" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="./pdf/Leonardo O Souza.pdf" download target="_blank" ><i class="fas fa-file-download"></i></a>
+                    class='fab fa-linkedin-in' style='color:white'></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5531985808502" target="_blank"><i class='fab fa-whatsapp'
+                    style='color:white'></i></a>
+            <a href="https://github.com/Leonardu76" target="_blank" target="_blank"><i class='fab fa-github'
+                    style='color:white'></i></a>
+            <a href="./pdf/Leonardo O Souza.pdf" download target="_blank"><i class="fas fa-file-download"
+                    style='color:white'></i></a>
 
         </div>
     </div>
