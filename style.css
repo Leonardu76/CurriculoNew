@@ -1,7 +1,7 @@
 body{
- background: linear-gradient(85deg,  #6b6102, #020000, #8f0606 );
-  background-size: 200% 300%;
-  animation: colors 15s ease infinite;
+ background: linear-gradient(74deg,  #f0eeee, #030303, #221818 );
+  background-size: 150% 300%;
+  animation: colors 20s ease infinite;
 
 }
 
@@ -20,7 +20,7 @@ body{
 @media screen and (max-width: 1000px) {
   #nav{
   border:groove;
-  background-color: #72062fd0;
+  background-color: #81787b85;
 }
 
 #som {
@@ -28,50 +28,63 @@ body{
 }
 }
 #conta{
-  margin: 10px 10px auto auto;
+  margin: 10px 10px 0 auto;
+
 }
 
 #itens *{
+   background-color: rgba(0, 0, 0, 0.479);
    text-decoration: none;
-   color: rgb(248, 244, 244);
-   border: groove;
+   color: rgb(245, 237, 237);
    text-align: center;
-   border-radius: 20px ;
-   box-shadow: 4px 2px 9px 7px rgba(182, 13, 13, 0.507) ;
-}
+   box-shadow: 2px 2px 9px 7px rgba(245, 244, 244, 0.171);
+   border-radius: 25px ;
+   text-shadow:20px 10px 10px rgba(226, 221, 219, 0.808) ;
+  }
 
 #nav {
     position:fixed;
+
 } 
 
 #perfil{
     border-radius: 110px;
     width: 220px;
     margin-top:70px;
-    border: groove;
+    border: groove black;
 }
 
 #perfil-title{
-    text-shadow:20px 10px 10px rgba(214, 54, 14, 0.808) ;
-    color: rgb(251, 254, 255);
+  
+  color: rgb(251, 254, 255);
 }
 
 #sobre{
-    color: rgb(251, 254, 255);
-    box-shadow: 4px 2px 9px 7px rgba(182, 13, 13, 0.507) ;
+    background : rgba(14, 13, 13, 0.486);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: rgb(245, 237, 237);
     text-align:center;
     border: groove;
     padding: auto;
+    box-shadow: 2px 2px 9px 7px rgba(245, 244, 244, 0.171);
+
 }
 
 #cursos {
-   color: white;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: rgb(245, 237, 237);
    border: groove;
    font-size: 20px;
-   padding-top: 100px; 
-   padding-bottom: 80px;
-  box-shadow: 2px 2px 9px 7px rgba(182, 13, 13, 0.507);
-}
+   padding-top: 80px; 
+   padding-bottom: 40px;
+   box-shadow: 2px 2px 9px 7px rgba(245, 244, 244, 0.171);
+   text-shadow:20px 10px 10px rgba(226, 221, 219, 0.363) ;
+
+  }
 
 .link {
    text-decoration: none;
@@ -79,12 +92,12 @@ body{
 }
 
 #experiencia{
-
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    border: groove;
-   color: rgb(251, 254, 255);
-   text-shadow:-11px 9px 7px rgba(214, 54, 14, 0.808);
-   box-shadow: 3px 2px 9px 7px rgba(182, 13, 13, 0.507) ;
-   font-size: 25px;
+   color: rgb(245, 237, 237);
+   box-shadow: 2px 2px 9px 7px rgba(245, 244, 244, 0.171);
+   text-shadow:20px 10px 10px rgba(226, 221, 219, 0.363) ;
+   font-size: 20px;
    text-align: center;
    padding-bottom: 80px;
    padding-top: 90px;
@@ -98,33 +111,39 @@ body{
    text-align: center;
    border: groove;
    color: rgb(240, 243, 243);
-   box-shadow: 3px 2px 9px 7px rgba(194, 98, 9, 0.671) ;
+   box-shadow: 2px 2px 9px 7px rgba(245, 244, 244, 0.171);
 } 
 
 .card{
-  background-color: #b85f0c3a;
   padding-left: 25px;
 }
 
 #social{   
+  
+    font-size: 60px;
+    cursor: pointer;
+    text-align: center; 
+    background : rgba(22, 19, 19, 0.486);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 
-   padding: 10px;
-   font-size: 70px;
-   cursor: pointer;
-   text-align: center;  
  }
   
   #text-contact{
     border: groove;
     color: rgb(251, 254, 255);
-    text-shadow:-11px 9px 7px rgba(214, 54, 14, 0.808);
-    box-shadow: 3px 2px 9px 7px rgba(182, 13, 13, 0.507) ;
+    box-shadow: 2px 2px 9px 7px rgba(245, 244, 244, 0.171);
+    text-shadow:20px 10px 10px rgba(226, 221, 219, 0.363) ;
+    background : rgba(22, 19, 19, 0.486);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     font-size: 30px;
-    border-radius: 40px 5px  ;
     text-align:center;
+    padding: 10px 0 10px 10px;
     margin-bottom: 300px;
 }
   
    #blank{
 height: 40vh;    
 }
+
